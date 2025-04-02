@@ -1,0 +1,51 @@
+# === TERRAFORM ===
+*.tfstate
+*.tfstate.backup
+*.tfvars
+.terraform/
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*.auto.tfvars
+terraform.tfvars.json
+terraform.tfvars
+
+# === SSH KEYS ===
+*.pem
+*.pub
+*.key
+nginx_key
+# === ANSIBLE ===
+*.retry
+*.log
+*.facts
+inventory.ini
+__pycache__/
+*.pyc
+*.pyo
+*.cache
+ansible.cfg
+
+# === OS / EDITOR FILES ===
+.DS_Store
+Thumbs.db
+
+# === PYTHON ENVIRONMENTS (if used) ===
+.env/
+.venv/
+env/
+venv/
+pip-log.txt
+
+# === IDEs ===
+.vscode/
+.idea/
+
+# === LOCAL EXEC ARTIFACTS ===
+inventory
+inventory.yaml
+inventory.txt
+*.tar.gz
+*.zip
+
